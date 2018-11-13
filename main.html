@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="all">
+<title>한국방송통신대학교</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+<link rel="stylesheet" type="text/css" href="css/knou.css">
+</head>
+<body>
+<!-- [D] 전페이지 공통 건너띄기 링크 제공 -->
+<ul class="skip">
+<li><a href="#header" onclick="document.getElementById('header').tabIndex=-1;document.getElementById('header').focus();return false;">주 메뉴 바로가기</a></li>
+<li><a href="#content" onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false">본문 바로가기</a></li>
+</ul>
+<!-- //[D] 전페이지 공통 건너띄기 링크 제공 -->
+<div class="wrap">
+	<!--[D] HEADER -->
+  <header class="header">
+		<div class="top_wrap">
+			<div class="inner">
+				<div class="menu_group">
+					<a href="#" class="link_menu"><span class="link_txt">HOME</span></a>
+					<a href="#" class="link_menu"><span class="link_txt">ENGLISH</span></a>
+					<button class="btn_pop"><span class="btn_txt">POPUP</span></button>
+				</div>
+				<div class="menu_group">
+					<a href="#" class="link_menu"><span class="link_txt">로그인</span></a>
+					<a href="#" class="link_menu"><span class="link_txt">SITEMAP</span></a>
+					<div class="zoom_area">
+						<span class="txt">글자<span class="blind">크기 설정</span></span>
+						<button type="button" class="btn btn_zoom_in">확대</button>
+						<button type="button" class="btn btn_zoom_reset">100%</button>
+						<button type="button" class="btn btn_zoom_out">축소</button>
+					</div>
+					<a href="#" class="link_custom_info"><span class="link_txt">맞춤정보</span></a>
+					<div class="total_search_wrap">
+						<form>
+							<div class="inp_area">
+								<label for="total_search_input" class="lb_txt">통합검색</label>
+								<input type="text" id="total_search_input" name="kwd" class="inp_txt">
+							</div>
+							<a href="#" class="btn_search">검색(새창으로 열림)</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- [D] GNB -->
+		<div class="gnb_wrap">
+			<div class="inner">
+				<h1 class="logo_area"><img src="images/logo.gif" alt="국립 한국방송통신대학교 Korea National Open University"></h1>
+				<nav id="gnb" class="gnb">
+					<ul class="lst_gnb_menu">
+					<li class="gnb_item">
+						<a href="#" class="menu_txt">학교소개</a>
+						<div class="sub_menu_wrap">
+							<em class="sub_menu_title">학교소개</em>
+							<ul class="lst_sub_menu">
+							<li class="sub_menu_item">
+								<a href="#" class="depth2_menu_title">방송대소개</a>
+								<div class="detail_menu_area">
+									<ul class="lst_detail_menu">
+									<li class="detail_menu_item"><a href="#" class="link_txt">설립취지</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">대학연혁</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">대학비전</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">학교특징</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">교육과정</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">학칙 및 규정</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">학사행정 서비스헌장</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="sub_menu_item">
+								<a href="#" class="depth2_menu_title">총장실</a>
+								<div class="detail_menu_area">
+									<ul class="lst_detail_menu">
+									<li class="detail_menu_item"><a href="#" class="link_txt">총장 인사말</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">약력</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">역대총장</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">총장 업무추진비 내역</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">연설문/축사</a></li>
+									<li class="detail_menu_item"><a href="#" class="link_txt">인터뷰/회견/기고</a></li>
+									</ul>
+								</div>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li class="gnb_item">
+						<a href="#" class="menu_txt">입학안내</a>
+						<!-- [D] 하위 드롭 메뉴 생략 -->
+					</li>
+					<li class="gnb_item">
+						<a href="#" class="menu_txt">대학 · 대학원</a>
+						<!-- [D] 하위 드롭 메뉴 생략 -->
+					</li>
+					<li class="gnb_item">
+						<a href="#" class="menu_txt">대학생활</a>
+						<!-- [D] 하위 드롭 메뉴 생략 -->
+					</li>
+					<li class="gnb_item">
+						<a href="#" class="menu_txt">홍보관</a>
+						<!-- [D] 하위 드롭 메뉴 생략 -->
+					</li>
+					<li class="gnb_item">
+						<a href="#" class="menu_txt total_menu_view">전체메뉴보기</a>
+						<!-- [D] 하위 드롭 메뉴 생략 -->
+					</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- //[D] GNB -->
+	</header>
+	<!--//[D] HEADER -->
+	<!-- [D] CONTENTS -->
+	<main id="content">
+		<div class="main_content">
+			<div class="visual_wrap">
+				<ul class="visual_slide_wrap">
+				<li class="slide_item"><img src="images/banner/img_visual_banner1.jpg" alt="꿈을 향한 열정, 사람을 빛나게 하다! KNOU"></li>
+				<li class="slide_item"><img src="images/banner/img_visual_banner2.jpg" alt="U-KNOU 캠퍼스로 떠나는 가을여행. http://ucampus.knou.ac.kr"></li>
+				<li class="slide_item"><img src="images/banner/img_visual_banner3.jpg" alt="내 인생을 바꾼 대학. 지속적인 배움으로 매일 성장하는 나!"></li>
+				<li class="slide_item"><img src="images/banner/img_visual_banner4.jpg" alt="대한민국 평생교육의 중심. 개교 46년의 역사를 자랑하는 국립 한국방송통신대학교"></li>
+				</ul>
+				<!-- login_wrap -->
+				<div class="login_wrap">
+					<h2 class="blind">로그인</h2>
+					<ul class="login_type">
+						<li class="type_item"><a href="#" class="link_login">아이디</a></li>
+						<li class="type_item"><a href="#" class="link_login is_certificate_type">인증서</a></li>
+					</ul>
+					<div class="inner">
+						<div class="login_area">
+							<form>
+								<div class="inp_area">
+									<label for="login_username" class="lb_txt">ID</label>
+									<input type="text" id="login_username" name="username" maxlength="15" class="inp_txt">
+								</div>
+								<div class="inp_area">
+									<label for="login_password" class="lb_txt">PASSWORD</label>
+									<input type="password" id="login_password" name="password" class="inp_txt">
+								</div>
+								<a href="#" class="btn_login">Login</a>
+							</form>
+						</div>
+						<div class="other_link_group">
+							<a href="#" class="link_txt">학번<span class="blind">찾기</span></a>
+							<a href="#" class="link_txt">아이디<span class="blind">찾기</span></a>
+							<a href="#" class="link_txt">비밀번호찾기</a>
+							<a href="#" class="link_txt">아이디등록</a>
+						</div>
+						<div class="other_link_group">
+							<a href="#" class="link_txt">아이디사용자 유형추가안내</a>
+						</div>
+						<div class="sns_link_wrap">
+							<em class="blind">방송통신대학교 블로그 및 SNS 둘러보기</em>
+							<ul class="lst_sns">
+							<li class="sns_item"><a href="#" target="_blank" class="link_area"><span class="ico ico_sns1">티스토리</span></a></li>
+							<li class="sns_item"><a href="#" target="_blank" class="link_area"><span class="ico ico_sns2">포스트</span></a></li>
+							<li class="sns_item"><a href="#" target="_blank" class="link_area"><span class="ico ico_sns3">페이스북</span></a></li>
+							<li class="sns_item"><a href="#" target="_blank" class="link_area"><span class="ico ico_sns4">인스타그램</span></a></li>
+							<li class="sns_item"><a href="#" target="_blank" class="link_area"><span class="ico ico_sns5">유투브</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- login_wrap -->
+			</div>
+			<div class="info_content_wrap">
+				<div class="notice_wrap">
+					<div class="title_wrap">
+						<h2 class="h_txt">공지사항</h2>
+					</div>
+					<ul class="tab_category">
+					<li class="tab_item is_selected">
+						<a href="#notice_tab1" class="btn_tab">학사공지</a>
+					</li>
+					<li class="tab_item">
+						<a href="#notice_tab2" class="btn_tab">시험/성적</a>
+					</li>
+					<li class="tab_item">
+						<a href="#notice_tab3" class="btn_tab">일반공지</a>
+					</li>
+					<li class="tab_item">
+						<a href="#notice_tab4" class="btn_tab">입학공지</a>
+					</li>
+					<li class="tab_item">
+						<a href="#notice_tab5" class="btn_tab">KNOU뉴스</a>
+					</li>
+					</ul>
+					<div class="tab_contents">
+						<div class="tab_section" id="notice_tab1">
+							<h3 class="blind">학사공지 리스트</h3>
+							<ul class="lst_noti">
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">등록</span><em class="tag is_must_read">필독</em><span class="post_title">2018학년도 동계계절수업 2차 등록 시행 공고</span>
+								</a>
+								<span class="date">2018-11-12</span>
+							</li>
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">장학</span><em class="tag is_must_read">필독</em><span class="post_title">고졸 후 학습자 장학금(희망사다리) 3차 신청 안내</span>
+								</a>
+								<span class="date">2018-11-07</span>
+							</li>
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">장학</span><em class="tag is_must_read">필독</em><span class="post_title">2018학년도 2학기 출판문화원장학생 선발 안내</span>
+								</a>
+								<span class="date">2018-11-01</span>
+							</li>
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">전공</span><em class="tag is_must_read">필독</em><span class="post_title">2019학년도 1학기 연계전공 이수 승인 결과 안내</span>
+								</a>
+								<span class="date">2018-10-30</span>
+							</li>
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">수강신청</span><em class="tag is_must_read">필독</em><span class="post_title">2019학년도 1학기 연계전공 이수 승인 결과 안내</span>
+								</a>
+								<span class="date">2018-10-29</span>
+							</li>
+							<li class="noti_item">
+								<a href="#" class="post_title_area">
+									<span class="tag">졸업논문</span><em class="tag is_must_read">필독</em><span class="post_title">2018학년도 동계 계절수업 시행 공고</span>
+								</a>
+								<span class="date">2018-10-24</span>
+							</li>
+							</ul>
+						</div>
+						<div class="tab_section" id="notice_tab2" style="display:none">
+							<h3 class="blind">시험/성적 리스트</h3>
+							<!-- [D] 중복 내용 생략 -->
+						</div>
+						<div class="tab_section" id="notice_tab3" style="display:none">
+							<h3 class="blind">일반공지 리스트</h3>
+							<!-- [D] 중복 내용 생략 -->
+						</div>
+						<div class="tab_section" id="notice_tab4" style="display:none">
+							<h3 class="blind">입학공지 리스트</h3>
+							<!-- [D] 중복 내용 생략 -->
+						</div>
+						<div class="tab_section" id="notice_tab5" style="display:none">
+							<h3 class="blind">KNOU뉴스 리스트</h3>
+						</div>
+					</div>
+					<a href="#" class="btn_more">더보기</a>
+				</div>
+				<div class="story_wrap">
+					<div class="title_wrap">
+						<h2 class="h_txt">KNOU STORY</h2>
+					</div>
+					<ul class="story_slide_wrap">
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video57.jpg" alt="MBC 생방송 아침이 좋다(18.7.2 방영) - 전문직 재학생"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video15.jpg" alt="방송대, 2018 한국의 사회공헌 대상"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video55.jpg" alt="잼라이브 방송대 퀴즈 영상"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video101.jpg" alt="사랑하는 재학생,동문 여러분! 소중한 사람들에게 방송대 입학을 권유해 주십시오(모집기간:12.3(월)~2019.1.8(화)"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video103.jpg" alt="지식의 빛이 지혜의 등불-2018.11.19.월"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video71.jpg" alt="2018역사자료 찾기- 기간:2018.9.1~12.31"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video99.jpg" alt="U-KNOU 캠퍼스 PC 활용법!(U-KNOU 캠퍼스 홍보영상)"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video100.jpg" alt="U-KNOU 캠퍼스 모바일 활용법!(U-KNOU 캠퍼스 모바일 홍보영상)"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video94.jpg" alt="한국방송통신대학교 대학원 정보과학과 홍보영상[한국방송통신대학교 대학원]"></a>
+						</li>
+						<li class="slide_item">
+							<a href="#" class="link_area"><img src="images/banner/knou_video56.jpg" alt="SBS 모닝와이드 - 자매 재학생과 스터디"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="quick_menu_wrap">
+					<em class="blind">퀵 메뉴</em>
+					<ul class="lst_quick_menu">
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">증명/학생증<br>발급 안내</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">학생서식</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">진로심리상담실</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">인터넷상담</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">튜터지도</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">멘토링</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">U-KNOU<br>캠퍼스강의체험</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">방송대학TV</span></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="link_menu">
+							<span class="menu_name_area"><span class="menu_name_txt">대학생활증<br>길라잡이</span></span>
+						</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="site_link_wrap">
+			<div class="menu_area">
+				<div class="menu_bx">
+					<ul class="menu_lst">
+					<li class="menu_item">
+						<a href="#" class="menu_link">
+							<span class="munu_txt">출판문화원</span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="menu_link">
+							<span class="munu_txt">방송대신문</span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="menu_link">
+							<span class="munu_txt">발전기금</span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="menu_link">
+							<span class="munu_txt">산학ㆍ연구 <em class="sub_txt">(국비지원교육)</em></span>
+						</a>
+					</li>
+					<li class="menu_item">
+						<a href="#" class="menu_link">
+							<span class="munu_txt">중앙도서관</span>
+						</a>
+					</li>
+					</ul>
+				</div>
+				<div class="menu_bx">
+					<ul class="side_menu_lst">
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link">학과 <span class="ico_arrow">목록보기</span></a>
+						<div class="sel_bx"><!-- [D] 펼쳐질 때 is_show 클래스 추가 -->
+							<em class="tit">학과</em>
+							<ul class="sel_lst">
+							<li class="sel_item"><a href="#" class="sel_link">국어국문학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">법학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">철학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">일본학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">행정학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경제학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경영학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">미디어영상학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">관광학과</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link">지역대학 <span class="ico_arrow">목록보기</span></a>
+						<div class="sel_bx">
+							<em class="tit">지역대학</em>
+							<ul class="sel_lst">
+							<li class="sel_item"><a href="#" class="sel_link">국어국문학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">법학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">철학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">일본학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">행정학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경제학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경영학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">미디어영상학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">관광학과</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link">프라임칼리지 <span class="ico_arrow">목록보기</span></a>
+						<div class="sel_bx">
+							<em class="tit">프라임칼리지</em>
+							<ul class="sel_lst">
+							<li class="sel_item"><a href="#" class="sel_link">국어국문학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">법학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">철학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">일본학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">행정학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경제학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경영학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">미디어영상학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">관광학과</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link">부속기관 <span class="ico_arrow">목록보기</span></a>
+						<div class="sel_bx">
+							<em class="tit">부속기관</em>
+							<ul class="sel_lst">
+							<li class="sel_item"><a href="#" class="sel_link">국어국문학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">법학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">철학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">일본학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">행정학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경제학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">경영학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">미디어영상학과</a></li>
+							<li class="sel_item"><a href="#" class="sel_link">관광학과</a></li>
+							</ul>
+						</div>
+					</li>
+					</ul>
+				</div>
+			</div>
+			<div class="more_menu_area">
+				<ul class="more_menu_lst">
+				<li class="more_menu_item"><a href="#" class="more_menu_link"><em class="point_txt">홈페이지이용안내</em></a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link"><em class="point_txt">전화번호안내</em></a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link"><em class="point_txt">채용안내</em></a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link"><em class="point_txt">외부연구과제공모</em></a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link">입찰정보</a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link">대학알리미(대학정보공시)</a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link">정부포상 추천대상자</a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link">방송대신문고</a></li>
+				<li class="more_menu_item"><a href="#" class="more_menu_link">대학 안내</a></li>
+				</ul>
+				<div class="menu_bx">
+					<ul class="side_menu_lst">
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link btn_point1">학생이메일 신청안내</a>
+					</li>
+					<li class="side_menu_item">
+						<a href="#" class="side_menu_link btn_point2">관련홈페이지 <span class="ico_arrow">목록보기</span></a>
+						<div class="sel_bx">
+							<em class="tit">관련홈페이지</em>
+							<ul class="sel_lst">
+							<li class="sel_item"><a href="#" class="sel_link">방송대OER</a></li>
+							</ul>
+						</div>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- //[D] CONTENTS -->
+	<!--[D] FOOTER -->
+  <footer id="footer" class="footer">
+  	<div class="inner">
+  		<span class="logo_area"><img src="images/footer_logo.gif" alt="국립 한국방송통신대학교 Korea National Open University"></span>
+  		<ul class="lst_link">
+  		<li class="link_item"><a href="#" class="link"><em class="point_txt">개인정보처리방침</em></a></li>
+  		<li class="link_item"><a href="#" class="link"><em class="point_txt">영상정보처리방침</em></a></li>
+  		<li class="link_item"><a href="#" class="link">행정정보공개제도</a></li>
+  		<li class="link_item"><a href="#" class="link">공무원행동강령</a></li>
+  		</ul>
+  		<div class="call_guide_area">
+  			<span class="main_call">KNOU 대표전화 <em class="point_txt">1577-9995</em></span>
+  					<a href="#" class="school_call_number">교내 전화번호안내</a>
+  		</div>
+  		<address class="address_txt">(03087) 서울시 종로구 대학로 86(동숭동) 한국방송통신대학교  /  안내전화 : 1577-9995</address>
+  		<p class="corp_txt">Copyrightⓒ2016 Korea National Open University. All Rights Reserved.</p>
+  	</div>
+	</footer>
+	<!--//[D] FOOTER -->
+</div>
+
+<!-- Javascript Area -->
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/jquery.bxslider.min.js"></script>
+<script src="js/case_view.js"></script>
+</body>
+</html>
